@@ -36,9 +36,9 @@ cache_hit = 98ms
 
 ## Information
 
-Screenshot below:
+Screenshots below:
 
-Orignal:
+Original:
 
 ![Screenshot 1](app/assets/images/ss.png)
 
