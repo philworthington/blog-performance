@@ -1,4 +1,4 @@
-# Ivan_the_terribles_blog-performance
+# blog-performance
 
 
 By [Phil Worthington](https://github.com/philworthington).
@@ -6,7 +6,7 @@ By [Phil Worthington](https://github.com/philworthington).
 
 
 ## Description
-**Ivan_the_terribles_blog-performance** is an example blog built in Rails that originally had major performance issues such as rendering up to 10,000 comments on a single page and many queries of the database.
+**blog-performance** is an example blog built in Rails that originally had major performance issues such as rendering up to 10,000 comments on a single page and many queries of the database.
 
 
 ## Steps to resolve performance issues
