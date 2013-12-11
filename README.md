@@ -22,13 +22,30 @@ By [Phil Worthington](https://github.com/philworthington).
 5. Used eager loading in the comments index action for fewer database queries for comments and replies.
 
 
+post_time = (posts on the page) / (ms to load page)
+post_time = 25 / 625.4ms = .039
+
+cache_miss = time will be found by restarting all servers, and loading "/" a few times to get an average from Chrome inspector.
+
+cache_miss = 560ms
+
+cache_hit = time will be found by reloading that same page a few times to get an average from Chrome inspector.
+
+cache_hit = 98ms
 
 
 ## Information
 
 Screenshot below:
 
+Orignal:
+
 ![Screenshot 1](app/assets/images/ss.png)
+
+Amended:
+
+![Screenshot 2](app/assets/images/ss1.png)
+
 
 
 
