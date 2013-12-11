@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'pg'
 # gem 'sqlite3'
+gem 'will_paginate'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -29,6 +30,7 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-debugger'
   gem 'hirb'
+  gem 'rack-mini-profiler'
 end
 
 group :test do
